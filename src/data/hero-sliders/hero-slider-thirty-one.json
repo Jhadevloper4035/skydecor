@@ -3,16 +3,22 @@
 [
   {
     "id": 1,
-    "title": "Furniture  Collection <span>2020</span>",
-    "subtitle": "Sale up to <span>40% off</span>",
     "image": "/assets/img/banner/bg1.jpg",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
-    "title": "Furniture  Collection <span>2020</span>",
-    "subtitle": "Sale up to <span>30% off</span>",
     "image": "/assets/img/banner/bg2.jpg",
+    "url": "/shop-grid-standard"
+  },
+   {
+    "id": 1,
+    "image": "/assets/img/banner/bg3.jpg",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 2,
+    "image": "/assets/img/banner/bg4.jpg",
     "url": "/shop-grid-standard"
   }
 ]

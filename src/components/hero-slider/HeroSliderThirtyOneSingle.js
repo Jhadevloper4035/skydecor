@@ -12,20 +12,24 @@ const HeroSliderThirtyOneSingle = ({ data }) => {
         <div className="row">
           <div className="col-xl-6 col-lg-6 col-md-7">
             <div className="slider-content slider-content-10 slider-animated-1">
-              <h3 className="animated"  dangerouslySetInnerHTML={{ __html: data.title }} ></h3>
-              <h1
+              <h3
                 className="animated"
+                dangerouslySetInnerHTML={{ __html: data.title }}
+              ></h3>
+              <h1
+                className="animated subtitle"
                 dangerouslySetInnerHTML={{ __html: data.subtitle }}
-                style={{fontStyle: "italic" , color : "#fff !important"}}
+                style={{ fontStyle: "italic", color: "#fff !important" }}
               />
-               <div className="slider-btn btn-hover btn-hover--blue">
+
+              <div className="slider-btn btn-hover btn-hover--blue">
                 <Link
                   className="animated"
                   to={process.env.PUBLIC_URL + data.url}
                 >
                   SHOP NOW
                 </Link>
-              </div> 
+              </div>
             </div>
           </div>
         </div>
@@ -35,7 +39,7 @@ const HeroSliderThirtyOneSingle = ({ data }) => {
 };
 
 HeroSliderThirtyOneSingle.propTypes = {
-  data: PropTypes.shape({})
+  data: PropTypes.shape({}),
 };
 
 export default HeroSliderThirtyOneSingle;
