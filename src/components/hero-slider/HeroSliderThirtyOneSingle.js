@@ -23,12 +23,12 @@ const HeroSliderThirtyOneSingle = ({ data }) => {
               />
 
               <div className="slider-btn btn-hover btn-hover--blue">
-                <Link
+                {/* <Link
                   className="animated"
                   to={process.env.PUBLIC_URL + data.url}
                 >
                   SHOP NOW
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

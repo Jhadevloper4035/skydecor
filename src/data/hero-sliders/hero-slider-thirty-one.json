@@ -3,12 +3,12 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/bg1.jpg",
+    "image": "/assets/img/banner/bg2.jpg",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/bg2.jpg",
+    "image": "/assets/img/banner/bg4.jpg",
     "url": "/shop-grid-standard"
   },
    {
@@ -18,7 +18,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/bg4.jpg",
+    "image": "/assets/img/banner/bg1.jpg",
     "url": "/shop-grid-standard"
   }
 ]
