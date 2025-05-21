@@ -2,7 +2,7 @@
   {
     "id": "1",
     "sku": "asdf123",
-    "name": "Lorem ipsum jacket",
+    "name": "Lorem ipsum laminate",
     "price": 12.45,
     "discount": 0,
     "offerEnd": "October 5, 2024 12:11:00",
@@ -86,7 +86,7 @@
   {
     "id": "2",
     "sku": "asdf123",
-    "name": "Lorem ipsum jacket",
+    "name": "Lorem ipsum laminate",
     "price": 12.45,
     "discount": 0,
     "offerEnd": "October 5, 2024 12:11:00",
@@ -170,7 +170,7 @@
   {
     "id": "3",
     "sku": "asdf123",
-    "name": "Lorem ipsum jacket",
+    "name": "Lorem ipsum laminate",
     "price": 12.45,
     "discount": 0,
     "offerEnd": "October 5, 2024 12:11:00",
@@ -254,7 +254,7 @@
   {
     "id": "4",
     "sku": "asdf123",
-    "name": "Lorem ipsum jacket",
+    "name": "Lorem ipsum laminate",
     "price": 12.45,
     "discount": 0,
     "offerEnd": "October 5, 2024 12:11:00",
@@ -338,7 +338,7 @@
   {
     "id": "5",
     "sku": "asdf123",
-    "name": "Lorem ipsum jacket",
+    "name": "Lorem ipsum laminate",
     "price": 12.45,
     "discount": 0,
     "offerEnd": "October 5, 2024 12:11:00",
@@ -421,7 +421,7 @@
   },{
     "id": "5",
     "sku": "asdf123",
-    "name": "Lorem ipsum jacket",
+    "name": "Lorem ipsum laminate",
     "price": 12.45,
     "discount": 0,
     "offerEnd": "October 5, 2024 12:11:00",
@@ -504,7 +504,7 @@
   },{
     "id": "6",
     "sku": "asdf123",
-    "name": "Lorem ipsum jacket",
+    "name": "Lorem ipsum laminate",
     "price": 12.45,
     "discount": 0,
     "offerEnd": "October 5, 2024 12:11:00",
@@ -588,7 +588,7 @@
   {
     "id": "7",
     "sku": "asdf123",
-    "name": "Lorem ipsum jacket",
+    "name": "Lorem ipsum laminate",
     "price": 12.45,
     "discount": 0,
     "offerEnd": "October 5, 2024 12:11:00",
@@ -671,7 +671,7 @@
   },{
     "id": "8",
     "sku": "asdf123",
-    "name": "Lorem ipsum jacket",
+    "name": "Lorem ipsum laminate",
     "price": 12.45,
     "discount": 0,
     "offerEnd": "October 5, 2024 12:11:00",
@@ -754,7 +754,7 @@
   },{
     "id": "9",
     "sku": "asdf123",
-    "name": "Lorem ipsum jacket",
+    "name": "Lorem ipsum laminate",
     "price": 12.45,
     "discount": 0,
     "offerEnd": "October 5, 2024 12:11:00",
@@ -837,7 +837,7 @@
   },{
     "id": "10",
     "sku": "asdf123",
-    "name": "Lorem ipsum jacket",
+    "name": "Lorem ipsum laminate",
     "price": 12.45,
     "discount": 0,
     "offerEnd": "October 5, 2024 12:11:00",
