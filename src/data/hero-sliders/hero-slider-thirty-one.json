@@ -3,22 +3,22 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/bg2.jpg",
+    "image": "/assets/img/banner/b-3.jpg",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/bg4.jpg",
+    "image": "/assets/img/banner/b-4.jpg",
     "url": "/shop-grid-standard"
   },
    {
     "id": 1,
-    "image": "/assets/img/banner/bg3.jpg",
+    "image": "/assets/img/banner/b-2.jpg",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/bg1.jpg",
+    "image": "/assets/img/banner/b-1.jpg",
     "url": "/shop-grid-standard"
   }
 ]

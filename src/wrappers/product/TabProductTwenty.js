@@ -30,16 +30,18 @@ const TabProductTwenty = ({
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link eventKey="saleItems">
-                <h4>Decorative Laminates</h4>
-              </Nav.Link>
-            </Nav.Item>
+           
 
 
             <Nav.Item>
               <Nav.Link eventKey="newArrival">
                 <h4>Liner Laminates</h4>
+              </Nav.Link>
+            </Nav.Item>
+
+             <Nav.Item>
+              <Nav.Link eventKey="saleItems">
+                <h4>Decorative Laminates</h4>
               </Nav.Link>
             </Nav.Item>
 
@@ -57,8 +59,8 @@ const TabProductTwenty = ({
 
             <Tab.Pane eventKey="bestSeller">
               <ProductSliderFive
-                category={category}
-                type="bestSeller"
+                category={"pvc-Laminates"}
+                type="new"
                 spaceBottomClass="mb-25"
                 productGridStyleClass={productGridStyleClass}
               />
