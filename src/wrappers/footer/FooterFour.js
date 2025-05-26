@@ -31,7 +31,7 @@ const FooterFour = ({
           >
             
             <FooterCopyright
-              footerLogo="/assets/img/logo/logo.png"
+              footerLogo="/assets/img/logo/skydecor-white.png"
               spaceBottomClass="mb-60"
               colorClass="copyright-white"
             />
