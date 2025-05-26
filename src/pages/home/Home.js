@@ -579,64 +579,67 @@ const HomeFurnitureSix = () => {
               <div className="col-md-3">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <iframe
-                      width="250"
-                      height="420"
-                      src="https://www.youtube.com/embed/RuoO85qtPuA"
-                      title="A visit to remember!"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
+                    <video
+                      muted
+                      autoPlay
+                      controls
+                      loop
+                      controlsList="nodownload"
+                      style={{ width: "100%" }}
+                    >
+                      <source src="https://www.waltzfurniture.in/img/video-collection/w1.mp4" />
+                    </video>
                   </div>
                 </div>
               </div>
+
               <div className="col-md-3">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <iframe
-                      width="250"
-                      height="420"
-                      src="https://www.youtube.com/embed/sFjjYVQjNJE"
-                      title="Smiles All Around at the Skydecor Experience Center, Kirti Nagar!"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
+                    <video
+                      muted
+                      autoPlay
+                      controls
+                      loop
+                      controlsList="nodownload"
+                      style={{ width: "100%" }}
+                    >
+                      <source src="https://www.waltzfurniture.in/img/video-collection/w2.mp4" />
+                    </video>
                   </div>
                 </div>
               </div>
+
               <div className="col-md-3">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <iframe
-                      width="250"
-                      height="420"
-                      src="https://www.youtube.com/embed/3F0qirI0PFk"
-                      title="Happiness meets design!"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
+                    <video
+                      muted
+                      autoPlay
+                      controls
+                      loop
+                      controlsList="nodownload"
+                      style={{ width: "100%" }}
+                    >
+                      <source src="https://www.waltzfurniture.in/img/video-collection/w3.mp4" />
+                    </video>
                   </div>
                 </div>
               </div>
+
               <div className="col-md-3">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <iframe
-                      width="250"
-                      height="420"
-                      src="https://www.youtube.com/embed/AjtDae8e-As"
-                      title="Another Happy Customer at Skydecor Experience Center, Kirti Nagar!"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
+                    <video
+                      muted
+                      autoPlay
+                      controls
+                      loop
+                      controlsList="nodownload"
+                      style={{ width: "100%" }}
+                    >
+                      <source src="https://www.waltzfurniture.in/img/video-collection/w4.mp4" />
+                    </video>
                   </div>
                 </div>
               </div>
