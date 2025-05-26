@@ -201,23 +201,6 @@ const HomeFurnitureSix = () => {
           spaceBottomClass="pb-70"
         />
 
-        <div className={clsx("welcome-area")}>
-          <div className="container">
-            <div className="welcome-content text-center">
-              <h1 style={{ textTransform: "uppercase" }}>
-                {" "}
-                SKYDECOR'S TRENDNG Laminates
-              </h1>
-            </div>
-          </div>
-        </div>
-
-        <TabProductTwenty
-          spaceBottomClass="pb-70"
-          category="furniture"
-          productGridStyleClass="product-wrap-10--style2 product-wrap-10--style2--blue"
-        />
-
         <section
           className="rooms1  bg-cream"
           data-scroll-index={1}
@@ -319,54 +302,69 @@ const HomeFurnitureSix = () => {
           </div>
         </section>
 
-        <>
-          <section
-            className="cta-bg-img"
-            style={{ backgroundImage: "url(assets/img/banner/bg6.jpg)" }}
-          >
-            <div className="container text-center">
-              <div className="inner-box">
-                <h2>
-                  <img
-                    src="assets/img/bg/textpart1.png"
-                    style={{ height: 200, width: 600 }}
-                    alt=""
-                  />
-                </h2>
-                <a href="./home" class="readmore">
-                  <i
-                    class="fa-solid fa-arrow-right fa-xl"
-                    style={{ color: "#fff" }}
-                  ></i>{" "}
-                </a>
-              </div>
+        <div className={clsx("welcome-area")}>
+          <div className="container">
+            <div className="welcome-content text-center">
+              <h1 style={{ textTransform: "uppercase" }}>
+                {" "}
+                SKYDECOR'S TRENDNG Laminates
+              </h1>
             </div>
-          </section>
+          </div>
+        </div>
 
-          <section
-            className="cta-bg-img"
-            style={{ backgroundImage: "url(assets/img/banner/bg5.jpg)" }}
-          >
-            <div className="container text-center">
-              <div className="inner-box">
-                <h2>
-                  <img
-                    src="assets/img/bg/textpart2.png"
-                    alt=""
-                    style={{ height: 250, width: 500 }}
-                  />
-                </h2>
-                <a href="./home" class="readmore">
-                  {" "}
-                  <i
-                    class="fa-solid fa-arrow-right fa-xl"
-                    style={{ color: "#fff" }}
-                  ></i>{" "}
-                </a>
-              </div>
+        <TabProductTwenty
+          spaceBottomClass="pb-70"
+          category="furniture"
+          productGridStyleClass="product-wrap-10--style2 product-wrap-10--style2--blue"
+        />
+
+        <section
+          className="cta-bg-img"
+          style={{ backgroundImage: "url(assets/img/banner/bg6.jpg)" }}
+        >
+          <div className="container text-center">
+            <div className="inner-box">
+              <h2>
+                <img
+                  src="assets/img/bg/textpart1.png"
+                  style={{ height: 200, width: 600 }}
+                  alt=""
+                />
+              </h2>
+              <a href="./home" class="readmore">
+                <i
+                  class="fa-solid fa-arrow-right fa-xl"
+                  style={{ color: "#fff" }}
+                ></i>{" "}
+              </a>
             </div>
-          </section>
-        </>
+          </div>
+        </section>
+
+        <section
+          className="cta-bg-img"
+          style={{ backgroundImage: "url(assets/img/banner/bg5.jpg)" }}
+        >
+          <div className="container text-center">
+            <div className="inner-box">
+              <h2>
+                <img
+                  src="assets/img/bg/textpart2.png"
+                  alt=""
+                  style={{ height: 250, width: 500 }}
+                />
+              </h2>
+              <a href="./home" class="readmore">
+                {" "}
+                <i
+                  class="fa-solid fa-arrow-right fa-xl"
+                  style={{ color: "#fff" }}
+                ></i>{" "}
+              </a>
+            </div>
+          </div>
+        </section>
 
         <section style={{ paddingBottom: "70px", marginTop: "70px" }}>
           <div className="container">
@@ -569,7 +567,10 @@ const HomeFurnitureSix = () => {
           <div className="container">
             <div className="row text-center">
               <div className="welcome-content text-center">
-                <h1 className="uppercase-white" style={{ textTransform: "uppercase", color: "#fff" }}>
+                <h1
+                  className="uppercase-white"
+                  style={{ textTransform: "uppercase", color: "#fff" }}
+                >
                   CUSTOMER REVIEWS
                 </h1>
               </div>
