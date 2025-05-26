@@ -587,7 +587,7 @@ const HomeFurnitureSix = () => {
                       controlsList="nodownload"
                       style={{ width: "100%" }}
                     >
-                      <source src="https://www.waltzfurniture.in/img/video-collection/w1.mp4" />
+                      <source src="https://res.cloudinary.com/dtlazsqas/video/upload/v1748264238/WhatsApp_Video_2025-05-26_at_18.24.15_3827cabe_smysue.mp4" />
                     </video>
                   </div>
                 </div>
@@ -604,7 +604,7 @@ const HomeFurnitureSix = () => {
                       controlsList="nodownload"
                       style={{ width: "100%" }}
                     >
-                      <source src="https://www.waltzfurniture.in/img/video-collection/w2.mp4" />
+                      <source src="https://res.cloudinary.com/dtlazsqas/video/upload/v1748264237/WhatsApp_Video_2025-05-26_at_18.24.16_8709949a_dv3l2r.mp4" />
                     </video>
                   </div>
                 </div>
@@ -621,7 +621,7 @@ const HomeFurnitureSix = () => {
                       controlsList="nodownload"
                       style={{ width: "100%" }}
                     >
-                      <source src="https://www.waltzfurniture.in/img/video-collection/w3.mp4" />
+                      <source src="https://res.cloudinary.com/dtlazsqas/video/upload/v1748264237/WhatsApp_Video_2025-05-26_at_18.24.14_08379862_mqst6o.mp4" />
                     </video>
                   </div>
                 </div>
@@ -638,7 +638,7 @@ const HomeFurnitureSix = () => {
                       controlsList="nodownload"
                       style={{ width: "100%" }}
                     >
-                      <source src="https://www.waltzfurniture.in/img/video-collection/w4.mp4" />
+                      <source src="https://res.cloudinary.com/dtlazsqas/video/upload/v1748264237/WhatsApp_Video_2025-05-26_at_18.24.10_fb146684_wdtlcd.mp4" />
                     </video>
                   </div>
                 </div>
