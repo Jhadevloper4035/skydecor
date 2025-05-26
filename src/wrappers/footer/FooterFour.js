@@ -8,15 +8,19 @@ const FooterFour = ({
   backgroundColorClass,
   spaceTopClass,
   spaceBottomClass,
-  spaceLeftClass,
-  spaceRightClass,
   containerClass,
   extraFooterClass,
-  sideMenu
+  sideMenu,
 }) => {
   return (
     <footer
-      className={clsx("footer-area", backgroundColorClass, spaceTopClass, spaceBottomClass, extraFooterClass, spaceLeftClass, spaceRightClass)}
+      className={clsx(
+        "footer-area",
+        backgroundColorClass,
+        spaceTopClass,
+        spaceBottomClass,
+        extraFooterClass
+      )}
     >
       <div className={`${containerClass ? containerClass : "container"}`}>
         <div className="row">
@@ -25,10 +29,10 @@ const FooterFour = ({
               sideMenu ? "col-xl-2 col-sm-4" : "col-lg-2 col-sm-4"
             }`}
           >
-            {/* footer copyright */}
+            
             <FooterCopyright
-              footerLogo="/assets/img/logo/logo-2.png"
-              spaceBottomClass="mb-30"
+              footerLogo="/assets/img/logo/logo.png"
+              spaceBottomClass="mb-60"
               colorClass="copyright-white"
             />
           </div>
@@ -185,7 +189,7 @@ FooterFour.propTypes = {
   spaceBottomClass: PropTypes.string,
   spaceTopClass: PropTypes.string,
   spaceLeftClass: PropTypes.string,
-  spaceRightClass: PropTypes.string
+  spaceRightClass: PropTypes.string,
 };
 
 export default FooterFour;

@@ -17,11 +17,11 @@ const FooterOne = ({
 }) => {
   return (
     <footer className={clsx("footer-area", backgroundColorClass, spaceTopClass, spaceBottomClass, extraFooterClass, spaceLeftClass, spaceRightClass )}>
-      <div className={`${containerClass ? containerClass : "container"}`}>
+      <div className={`${containerClass ? containerClass : "container-fluid"}`}>
         <div className="row">
           <div className={`${ sideMenu ? "col-xl-2 col-sm-4" : "col-lg-2 col-sm-4" }`} >
             {/* footer copyright */}
-            <FooterCopyright footerLogo="/assets/img/logo/logo.ng" spaceBottomClass="mb-30"  />
+            <FooterCopyright footerLogo="/assets/img/logo/logo.png" spaceBottomClass="mb-30"  />
           </div>
           <div  className={`${ sideMenu ? "col-xl-2 col-sm-4" : "col-lg-2 col-sm-4"  }`} >
             <div className="footer-widget mb-30 ml-30">
