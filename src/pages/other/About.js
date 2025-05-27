@@ -49,6 +49,8 @@ const About = () => {
 
         {/* brand logo slider */}
         <BrandLogoSliderOne spaceBottomClass="pb-70" />
+
+        
       </LayoutOne>
     </Fragment>
   );

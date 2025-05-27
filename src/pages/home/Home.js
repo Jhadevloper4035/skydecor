@@ -9,6 +9,7 @@ import BlogFeaturedThree from "../../wrappers/blog-featured/BlogFeatured";
 import LayoutEight from "../../layouts/LayoutEight";
 import HeroSliderThirtyOne from "../../wrappers/hero-slider/slider";
 import TabProductTwenty from "../../wrappers/product/TabProductTwenty";
+import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 
 const HomeFurnitureSix = () => {
   useEffect(() => {
@@ -19,7 +20,7 @@ const HomeFurnitureSix = () => {
       const columns = parseFloat($(this).data("columns"));
       const loop = $(this).data("loop");
       const autoplay2 = $(this).data("autoplay");
-      const autoplayspeed1 = $(this).data("autoplayspeed");
+      //const autoplayspeed1 = $(this).data("autoplayspeed");
       const val_nav = $(this).data("arrows");
       const nav_arrow = $(this).data("arrows-class");
       const val_dots = $(this).data("dots");
@@ -301,6 +302,51 @@ const HomeFurnitureSix = () => {
             </div>
           </div>
         </section>
+
+        <section className="about" style={{ paddingBottom: "70px" }}>
+          <div className="container">
+            <div className="row">
+              <div
+                className="col-md-6 mb-30 animate-box"
+                data-animate-effect="fadeInUp"
+              >
+                <div
+                  className="skydecor-section-title "
+                  style={{ marginBottom: 24 }}
+                >
+                  {" "}
+                  The TOTAL LIVING CONCEPT{" "}
+                </div>
+                <p className="about-skydecor-p">
+                  orem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged.
+                  <br />
+                  <br />
+                  It was popularised in the 1960s with the release of Letraset
+                  sheets containing Lorem Ipsum passages, and more recently with
+                  desktop publishing software like Aldus PageMaker including
+                  versions of Lorem Ipsum.
+                </p>
+                {/* call */}
+              </div>
+              <div
+                className="col col-md-5  offset-md-1 animate-box"
+                data-animate-effect="fadeInUp"
+              >
+                <img src="https://res.cloudinary.com/dtlazsqas/image/upload/v1748340272/Logo-01_vvzhdt.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+          
+                <BrandLogoSliderOne spaceBottomClass="pb-70" />
 
         <div className={clsx("welcome-area")}>
           <div className="container">
