@@ -79,7 +79,7 @@
 
       margin: 6px 0 37px;
 
-      color: #010101;
+      color: #ffffff;
       @media #{$lg-layout} {
         font-size: 52px;
         line-height: 65px;
@@ -2862,3 +2862,14 @@
     }
   }
 }
+
+.slider-content-3 h3::after, .slider-content-3 .h3::after {
+
+  display: none;
+}
+
+.slider-content-3 h3::before, .slider-content-3 .h3::before {
+   
+  display: none;
+}
+

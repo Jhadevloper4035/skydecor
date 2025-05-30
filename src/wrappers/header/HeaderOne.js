@@ -56,7 +56,7 @@ const HeaderOne = ({
       >
         <div className={layout === "container" ? layout : "container"}>
           <div className="row">
-            <div className="col-xl-2 col-lg-2 col-md-6 col-4" style={{ display : "flex"}}>
+            <div className="col-xl-2 col-lg-2 col-md-6 col-4" style={{ display : "flex" }}>
               {/* header logo */}
               <Logo imageUrl="/assets/img/logo/logo.png" logoClass="logo" />
             </div>
@@ -64,7 +64,7 @@ const HeaderOne = ({
               {/* Nav menu */}
               <NavMenu />
             </div>
-            <div className="col-xl-2 col-lg-2 col-md-6 col-8" style={{display:"flex"}}>
+            <div className="col-xl-2 col-lg-2 col-md-6 col-8" style={{display:"flex" , justifyContent : "flex-end"}}>
               {/* Icon group */}
               <IconGroup />
             </div>

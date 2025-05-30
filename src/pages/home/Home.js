@@ -7,7 +7,7 @@ import "swiper/swiper-bundle.min.css";
 import SEO from "../../components/seo";
 import BlogFeaturedThree from "../../wrappers/blog-featured/BlogFeatured";
 import LayoutEight from "../../layouts/LayoutEight";
-import HeroSliderThirtyOne from "../../wrappers/hero-slider/slider";
+import HeroSliderThirtyOne from "../../wrappers/hero-slider/HeroSliderTen";
 import TabProductTwenty from "../../wrappers/product/TabProductTwenty";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 
@@ -195,7 +195,6 @@ const HomeFurnitureSix = () => {
         headerBorderStyle="fluid-border"
         headerPaddingClass="header-padding-2"
       >
-        {/* hero slider */}
         <HeroSliderThirtyOne
           spaceLeftClass="ml-70"
           spaceRightClass="mr-70"
@@ -205,13 +204,12 @@ const HomeFurnitureSix = () => {
         <section
           className="rooms1  bg-cream"
           data-scroll-index={1}
-          style={{ paddingBottom: "70px" }}
+          style={{ paddingBottom: "70px", paddingTop: "70px" }}
         >
           <div className="container">
             <div className="row text-center">
               <div className="welcome-content text-center">
                 <h1 style={{ textTransform: "uppercase" }}>
-                  {" "}
                   SKYDECOR'S TRENDNG Laminates
                 </h1>
               </div>
@@ -220,11 +218,10 @@ const HomeFurnitureSix = () => {
               <div className="col-md-3">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    {" "}
                     <img
                       src="assets\img\product\laminates\pvc-laminates.jpg"
                       alt=""
-                    />{" "}
+                    />
                   </div>
                   <span className="category">
                     <a href="modular-kitchens.php">Detail</a>
@@ -318,13 +315,11 @@ const HomeFurnitureSix = () => {
                   The TOTAL LIVING CONCEPT{" "}
                 </div>
                 <p className="about-skydecor-p">
-                  orem Ipsum is simply dummy text of the printing and
+                  Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
                   printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged.
+                  specimen book.
                   <br />
                   <br />
                   It was popularised in the 1960s with the release of Letraset
@@ -338,15 +333,16 @@ const HomeFurnitureSix = () => {
                 className="col col-md-5  offset-md-1 animate-box"
                 data-animate-effect="fadeInUp"
               >
-                <img src="https://res.cloudinary.com/dtlazsqas/image/upload/v1748340272/Logo-01_vvzhdt.png" alt="" />
+                <img
+                  src="https://res.cloudinary.com/dtlazsqas/image/upload/v1748340272/Logo-01_vvzhdt.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
         </section>
 
-
-          
-                <BrandLogoSliderOne spaceBottomClass="pb-70" />
+        <BrandLogoSliderOne spaceBottomClass="pb-70" />
 
         <div className={clsx("welcome-area")}>
           <div className="container">

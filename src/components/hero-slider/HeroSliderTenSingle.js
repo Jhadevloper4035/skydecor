@@ -1,7 +1,5 @@
 import PropTypes from "prop-types";
 
-import { Link } from "react-router-dom";
-
 const HeroSliderTenSingle = ({ data }) => {
   return (
     <div
@@ -15,14 +13,14 @@ const HeroSliderTenSingle = ({ data }) => {
               <h3 className="animated">{data.title}</h3>
               <h1 className="animated">{data.subtitle}</h1>
               <p className="animated">{data.text}</p>
-              <div className="slider-btn btn-hover">
+              {/* <div className="slider-btn btn-hover">
                 <Link
                   className="animated"
                   to={process.env.PUBLIC_URL + data.url}
                 >
                   SHOP NOW
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

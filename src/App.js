@@ -78,9 +78,7 @@ const ProductTabRight = lazy(() =>
 );
 const ProductSticky = lazy(() => import("./pages/shop-product/ProductSticky"));
 const ProductSlider = lazy(() => import("./pages/shop-product/ProductSlider"));
-const ProductFixedImage = lazy(() =>
-  import("./pages/shop-product/ProductFixedImage")
-);
+const ProductFixedImage = lazy(() => import("./pages/shop-product/ProductFixedImage") );
 
 // blog pages
 const BlogStandard = lazy(() => import("./pages/blog/BlogStandard"));
@@ -100,7 +98,6 @@ const Cart = lazy(() => import("./pages/other/Cart"));
 const Wishlist = lazy(() => import("./pages/other/Wishlist"));
 const Compare = lazy(() => import("./pages/other/Compare"));
 const Checkout = lazy(() => import("./pages/other/Checkout"));
-
 const NotFound = lazy(() => import("./pages/other/NotFound"));
 
 const App = () => {
@@ -118,10 +115,7 @@ const App = () => {
             }
           >
             <Routes>
-              <Route
-                path={process.env.PUBLIC_URL + "/"}
-                element={<HomeFurnitureSix/>}
-              />
+              <Route path={process.env.PUBLIC_URL + "/"} element={<HomeFurnitureSix/>}  />
 
               {/* Homepages */}
               <Route
@@ -132,6 +126,7 @@ const App = () => {
                 path={process.env.PUBLIC_URL + "/home-fashion-two"}
                 element={<HomeFashionTwo/>}
               />
+              
               <Route
                 path={process.env.PUBLIC_URL + "/home-fashion-three"}
                 element={<HomeFashionThree/>}

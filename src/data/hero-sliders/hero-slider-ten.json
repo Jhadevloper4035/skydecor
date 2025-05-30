@@ -1,18 +1,30 @@
 [
   {
     "id": 1,
-    "title": "Stylish",
-    "subtitle": "Male Clothes",
-    "text": "30% off Summer Vacation",
-    "image": "/assets/img/slider/slider-2.jpg",
-    "url": "/shop-grid-standard"
+    "image": "/assets/img/banner/b-3.jpg"
+
   },
   {
     "id": 2,
-    "title": "Stylish",
-    "subtitle": "Female Clothes",
-    "text": "30% off Summer Vacation",
-    "image": "/assets/img/slider/slider-2-2.jpg",
-    "url": "/shop-grid-standard"
+    "image": "/assets/img/banner/b-4.jpg"
+  },
+  {
+    "id": 3,
+    "image": "/assets/img/banner/b-2.jpg"
+  },
+  {
+    "id": 4,
+    "image": "/assets/img/banner/b-1.jpg"
+  },
+  {
+    "id": 5,
+    "image": "/assets/img/banner/b-5.jpg"
+  },
+  {
+    "id": 6,
+    "image": "/assets/img/banner/b-6.jpg"
   }
+  
+
+
 ]
