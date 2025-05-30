@@ -66,11 +66,11 @@ const HeaderTop = ({ borderStyle }) => {
       {/* Offer Section */}
       <div className="header-offer">
         <p  style={{ color: "#fff",  fontSize: "12px" }} >
-          Need Any Help? Call us: <span>+222-1800-2628</span>
+         <i class="fa-solid fa-phone" style={{ color: "#fff",  fontSize: "14px" }} ></i> &nbsp;  Call Us : <span>+222-1800-2628</span>
         </p>
       </div>
 
-      <div className="header-offer">
+      {/* <div className="header-offer">
         <p>
           <a
             href="mailto:info@example.com"
@@ -87,9 +87,9 @@ const HeaderTop = ({ borderStyle }) => {
           </a>
         </p>
         
-      </div>
+      </div> */}
 
-      <div className="header-offer"   style={{
+      {/* <div className="header-offer"   style={{
               color: "#fff",
               textDecoration: "none",
               display: "flex",
@@ -146,8 +146,13 @@ const HeaderTop = ({ borderStyle }) => {
           <i class="fa-solid fa-book-open-reader"></i> blogs
           </a>
         </p>
-      </div>
+      </div> */}
+
+
+
     </div>
+
+
   );
 };
 

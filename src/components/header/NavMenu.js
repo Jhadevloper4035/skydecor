@@ -21,11 +21,34 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
             </Link>
           </li>
 
-          <li>
-            <Link to={process.env.PUBLIC_URL + "/"}>
-              {t("About Us")}
-            </Link>
-          </li>
+
+
+                        <li>
+                      <Link to={process.env.PUBLIC_URL + "/"}>
+                        {t("About Us")}
+                        {sidebarMenu ? (
+                          <span>
+                            <i className="fa fa-angle-right"></i>
+                          </span>
+                        ) : (
+                          <i className="fa fa-angle-down" />
+                        )}
+                      </Link>
+                      <ul className="submenu">
+                        <li>
+                          <Link to={process.env.PUBLIC_URL + "/"}>
+                            {t("Loreum ipsum ")}
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to={process.env.PUBLIC_URL + "/"}>
+                            {t("Loreum ipsum ")}
+                          </Link>
+                        </li>
+                      </ul>
+                      </li>
+
+
           
           <li>
             <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
@@ -170,11 +193,30 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
             </ul> */}
           </li>
 
-          <li>
-            <Link to={process.env.PUBLIC_URL + "/"}>
-              {t("Events")}
-            </Link>
-          </li>
+
+          
+                        <li>
+                      <Link to={process.env.PUBLIC_URL + "/"}>
+                        {t("Events")}
+                        {sidebarMenu ? (
+                          <span>
+                            <i className="fa fa-angle-right"></i>
+                          </span>
+                        ) : (
+                          <i className="fa fa-angle-down" />
+                        )}
+                      </Link>
+                      <ul className="submenu">
+                        <li>
+                          <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
+                            {t("Exhibition & media")}
+                          </Link>
+                        </li>
+
+
+                      </ul>
+                      </li>
+
         
           <li>
             <Link to={process.env.PUBLIC_URL + "/contact"}>
@@ -184,9 +226,17 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
 
           <li>
             <Link to={process.env.PUBLIC_URL + "/"}>
-              {t("News & Media ")}
+              {t("Blog ")}
             </Link>
           </li>
+
+           <li>
+            <Link to={process.env.PUBLIC_URL + "/"}>
+              {t("Career ")}
+            </Link>
+          </li>
+
+
         </ul>
       </nav>
     </div>
