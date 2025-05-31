@@ -4,8 +4,9 @@
     "image": "/assets/img/blog/blog-1.jpg",
     "category": ["Laminate"],
     "title": "A guide to latest trends",
+    "text" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     "url": "/blog-details-standard",
-    "author": "skydecor",
+    "author": "Read More",
     "authorUrl": "/blog-standard"
   },
   {
@@ -13,8 +14,9 @@
     "image": "/assets/img/blog/blog-2.jpg",
     "category": ["Laminate"],
     "title": "Five ways to lead a happy life",
+    "text" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     "url": "/blog-details-standard",
-    "author": "skydecor",
+    "author": "Read More",
     "authorUrl": "/blog-standard"
   },
   {
@@ -22,8 +24,9 @@
     "image": "/assets/img/blog/blog-3.jpg",
     "category": ["Laminate"],
     "title": "Tips on having a happy life",
+    "text" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     "url": "/blog-details-standard",
-    "author": "skydecor",
+    "author": "Read More",
     "authorUrl": "/blog-standard"
   }
 ]

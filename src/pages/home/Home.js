@@ -5,7 +5,7 @@ import Swiper from "swiper/bundle";
 import "swiper/swiper-bundle.min.css";
 
 import SEO from "../../components/seo";
-import BlogFeaturedThree from "../../wrappers/blog-featured/BlogFeatured";
+import BlogFeaturedThree from "../../wrappers/blog-featured/BlogFeaturedThree";
 import LayoutEight from "../../layouts/LayoutEight";
 import HeroSliderThirtyOne from "../../wrappers/hero-slider/HeroSliderTen";
 import TabProductTwenty from "../../wrappers/product/TabProductTwenty";
@@ -185,8 +185,8 @@ const HomeFurnitureSix = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Premium Quality Laminates Design Collections"
-        description="Furniture shop home of flone react minimalist eCommerce template."
+        titleTemplate="Skydecor - Premium Quality Laminates Design Collections"
+        description="Discover the widest range of high-quality laminates for every space at Skydecor, India's leading laminates manufacturer. Explore today!"
       />
 
       <LayoutEight

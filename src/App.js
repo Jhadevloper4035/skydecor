@@ -45,8 +45,7 @@ const HomeAutoParts = lazy(() => import("./pages/home/HomeAutoParts"));
 const HomeCakeShop = lazy(() => import("./pages/home/HomeCakeShop"));
 const HomeHandmade = lazy(() => import("./pages/home/HomeHandmade"));
 const HomePetFood = lazy(() => import("./pages/home/HomePetFood"));
-const HomeMedicalEquipment = lazy(() =>
-  import("./pages/home/HomeMedicalEquipment")
+const HomeMedicalEquipment = lazy(() =>  import("./pages/home/HomeMedicalEquipment")
 );
 const HomeChristmas = lazy(() => import("./pages/home/HomeChristmas"));
 const HomeBlackFriday = lazy(() => import("./pages/home/HomeBlackFriday"));
