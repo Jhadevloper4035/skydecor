@@ -42,6 +42,7 @@ const Contact = () => {
                           2nd floor, plot No.59, sector 136 <br />
                           Noida,Uttar Pradesh,India,201301 <br />
                         </p>
+                         <a href="/" className="view-btn"> Get Direction  </a>
                       </div>
                     </div>
                   </div>
@@ -66,6 +67,8 @@ const Contact = () => {
                           Opp. Metro Pillar No.470 Mundka,New Delhi,India,110041{" "}
                           <br />
                         </p>
+
+                       <a href="/" className="view-btn"> Get Direction  </a>
                       </div>
                     </div>
                   </div>
@@ -90,6 +93,7 @@ const Contact = () => {
                           Rekha Enclave, Masarover Garden <br />
                           Kirti Nagar,New Delhi,India,110015 <br />
                         </p>
+                          <a href="/" className="view-btn"> Get Direction  </a>
                       </div>
                     </div>
                   </div>
@@ -148,7 +152,7 @@ const Contact = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                         <i class="fa-brands fa-facebook"></i> 
+                          <i class="fa-brands fa-facebook"></i>
                         </a>
                       </li>
                       <li>
@@ -157,7 +161,7 @@ const Contact = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                        <i class="fa-brands fa-pinterest"></i>
+                          <i class="fa-brands fa-pinterest"></i>
                         </a>
                       </li>
                       <li>
@@ -166,7 +170,7 @@ const Contact = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                        <i class="fa-brands fa-whatsapp"></i>
+                          <i class="fa-brands fa-whatsapp"></i>
                         </a>
                       </li>
                       <li>
@@ -175,7 +179,7 @@ const Contact = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                        <i class="fa-brands fa-instagram"></i>
+                          <i class="fa-brands fa-instagram"></i>
                         </a>
                       </li>
                     </ul>
@@ -224,18 +228,16 @@ const Contact = () => {
         <div className="contact-area  pb-70">
           <div className="container">
             <div className="contact-map mb-10">
-            <iframe
-  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7012.124286145613!2d77.402238!3d28.507778000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce90289e0bb63%3A0xe1a1fc7223b299e5!2sSKYDECOR%20LAMINATES!5e0!3m2!1sen!2sin!4v1749803285345!5m2!1sen!2sin"
-  width="100%"
-  height="100%"
-  style={{ border: 0 }}
-  allowFullScreen=""
-  loading="lazy"
-  title="Skydecor"
-  referrerPolicy="no-referrer-when-downgrade"
-/>
-
-
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7012.124286145613!2d77.402238!3d28.507778000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce90289e0bb63%3A0xe1a1fc7223b299e5!2sSKYDECOR%20LAMINATES!5e0!3m2!1sen!2sin!4v1749803285345!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                title="Skydecor"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
             </div>
           </div>
         </div>
