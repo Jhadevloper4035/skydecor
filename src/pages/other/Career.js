@@ -221,6 +221,35 @@ const Career = () => {
     },
   ];
 
+
+  const whyChooseUsData = [
+  {
+    img: "/assets/img/why/7.png",
+    title: "Advanced Fire Safety",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+  },
+  {
+    img: "/assets/img/why/8.png",
+    title: "Eco-Friendly Materials",
+    description:
+      "Suspendisse potenti. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien.",
+  },
+  {
+    img: "/assets/img/why/9.png",
+    title: "Certified Quality Checks",
+    description:
+      "Cras mattis consectetur purus sit amet fermentum. Maecenas sed diam eget risus varius blandit sit amet non magna.",
+  },
+  {
+    img: "/assets/img/why/10.png",
+    title: "Long-Lasting Durability",
+    description:
+      "Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus.",
+  },
+];
+
+
   return (
     <Fragment>
       <SEO
@@ -231,7 +260,7 @@ const Career = () => {
         <Breadcrumb
           pages={[
             { label: "Home", path: process.env.PUBLIC_URL + "/" },
-            { label: "About us", path: process.env.PUBLIC_URL + pathname },
+            { label: "contact us", path: process.env.PUBLIC_URL + pathname },
           ]}
         />
 
@@ -290,79 +319,30 @@ const Career = () => {
           </div>
         </section>
 
-        <section
-          className="facilties "
-          style={{ paddingBottom: "70px", paddingTop: "70px" }}
-        >
-          <div className="container">
-            <div className="row text-center">
-              <div className="welcome-content text-center pb-60 ">
-                <h1 style={{ textTransform: "uppercase" }}>Why Choose Us?</h1>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-3 col-sm-6 ">
-                <div
-                  className="single-facility animate-box"
-                  data-animate-effect="fadeInUp"
-                >
-                  <img src="/assets/img/why/1.png" alt="" />
-                  <h5>Flame Retardant Test </h5>
-                  <p style={{ textAlign: "center" }}>
-                    At Waltz, we blend global inspirations, combining Italian
-                    aesthetics and German technology, tailored to Indian living
-                    standards.{" "}
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-md-3 col-sm-6 ">
-                <div
-                  className="single-facility animate-box"
-                  data-animate-effect="fadeInUp"
-                >
-                  <img src="/assets/img/why/2.png" alt="" />
-                  <h5>Lead Free Test </h5>
-                  <p style={{ textAlign: "center" }}>
-                    At Waltz, we blend global inspirations, combining Italian
-                    aesthetics and German technology, tailored to Indian living
-                    standards.{" "}
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-md-3 col-sm-6 ">
-                <div
-                  className="single-facility animate-box"
-                  data-animate-effect="fadeInUp"
-                >
-                  <img src="/assets/img/why/3.png" alt="" />
-                  <h5>Quality Control Test </h5>
-                  <p style={{ textAlign: "center" }}>
-                    At Waltz, we blend global inspirations, combining Italian
-                    aesthetics and German technology, tailored to Indian living
-                    standards.{" "}
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-md-3 col-sm-6 ">
-                <div
-                  className="single-facility animate-box"
-                  data-animate-effect="fadeInUp"
-                >
-                  <img src="/assets/img/why/4.png" alt="" />
-                  <h5>Abrasion Resistant Test </h5>
-                  <p style={{ textAlign: "center" }}>
-                    At Waltz, we blend global inspirations, combining Italian
-                    aesthetics and German technology, tailored to Indian living
-                    standards.{" "}
-                  </p>
-                </div>
-              </div>
-            </div>
+        
+          <section className="facilties" style={{ padding: "70px 0" }}>
+      <div className="container">
+        <div className="row text-center">
+          <div className="welcome-content text-center pb-60">
+            <h1 style={{ textTransform: "uppercase" }}>Why Choose Us?</h1>
           </div>
-        </section>
+        </div>
+        <div className="row">
+          {whyChooseUsData.map((item, index) => (
+            <div className="col-md-3 col-sm-6" key={index}>
+              <div
+                className="single-facility animate-box"
+                data-animate-effect="fadeInUp"
+              >
+                <img src={item.img} alt={item.title} />
+                <h5>{item.title}</h5>
+                <p style={{ textAlign: "center" }}>{item.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
 
         <section className="section-padding">
           <div className="container">
