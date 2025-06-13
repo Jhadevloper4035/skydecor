@@ -7,12 +7,9 @@ const SectionTitleWithText = ({ spaceTopClass, spaceBottomClass }) => {
       <div className="container">
         <div className="welcome-content text-center">
           <h5>Who Are We</h5>
-          <h1>Welcome To Flone</h1>
+          <h1>Welcome To Skydecor</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt labor et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commo consequat irure{" "}
+           Skydecor embarked on its journey in 2016 with a vision to push beyond limits and redefine excellence. With a vast infrastructure spanning over 5 million sheets annual production and state-of-the-art machinery, we are committed to continuous growth and innovation. Our manufacturing facilities in Greater Noida and Hapur specialize in producing PVC Laminates, Acrylic Laminates, Decorative Laminates and Soffitto Panels. Our operational headquarters is located in Noida, while our Experience Centres in Kirti Nagar & Noida offers a firsthand showcase of our premium products
           </p>
         </div>
       </div>
@@ -22,7 +19,7 @@ const SectionTitleWithText = ({ spaceTopClass, spaceBottomClass }) => {
 
 SectionTitleWithText.propTypes = {
   spaceBottomClass: PropTypes.string,
-  spaceTopClass: PropTypes.string
+  spaceTopClass: PropTypes.string,
 };
 
 export default SectionTitleWithText;

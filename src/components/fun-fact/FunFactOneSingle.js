@@ -17,7 +17,7 @@ const FunFactOneSingle = ({ data, spaceBottomClass, textAlignClass }) => {
         <div className="count-icon">
           <i className={data.iconClass} />
         </div>
-        <h2 className="count">
+        <h2 className="count text-white">
           <VisibilitySensor
             onChange={onVisibilityChange}
             offset={{ top: 10 }}
@@ -25,8 +25,11 @@ const FunFactOneSingle = ({ data, spaceBottomClass, textAlignClass }) => {
           >
             <CountUp end={didViewCountUp ? data.countNum : 0} />
           </VisibilitySensor>
+        
+        <span> + </span>
+          
         </h2>
-        <span>{data.title}</span>
+        <span className="text-white">{data.title}</span>
       </div>
   );
 };

@@ -5,8 +5,27 @@ import FunFactOneSingle from "../../components/fun-fact/FunFactOneSingle.js";
 
 const FunFactOne = ({ spaceTopClass, spaceBottomClass, bgClass }) => {
   return (
-    <div className={clsx("funfact-area", spaceTopClass, spaceBottomClass, bgClass)}>
+    <div
+      className={clsx("funfact-area", spaceTopClass, spaceBottomClass, bgClass)}
+      style={{
+        backgroundImage: "url('./assets/img/banner/funfact.jpg')",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundAttachment: "fixed",
+      }}
+    >
       <div className="container">
+        <div className="row text-center">
+          <div className="welcome-content text-center pb-60 ">
+            <h1 className="text-white" style={{ textTransform: "uppercase" }}>
+              How We Earned Trust
+            </h1>
+          </div>
+        </div>
         <div className="row">
           {funFactData?.map((single, key) => (
             <div className="col-lg-3 col-md-6 col-sm-6" key={key}>
@@ -26,7 +45,7 @@ const FunFactOne = ({ spaceTopClass, spaceBottomClass, bgClass }) => {
 FunFactOne.propTypes = {
   bgClass: PropTypes.string,
   spaceBottomClass: PropTypes.string,
-  spaceTopClass: PropTypes.string
+  spaceTopClass: PropTypes.string,
 };
 
 export default FunFactOne;
