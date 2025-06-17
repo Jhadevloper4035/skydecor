@@ -23,6 +23,7 @@ const Contact = () => {
         <section className="ttm-row res-991-pt-45 pb-70 pt-70 res-991-pb-0 clearfix">
           <div className="container">
             <div className="row">
+
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="featured-icon-box icon-align-top-content style7">
                   <div className="featured-inner">
@@ -43,6 +44,31 @@ const Contact = () => {
                           Noida,Uttar Pradesh,India,201301 <br />
                         </p>
                          <a href="/" className="view-btn"> Get Direction  </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="featured-icon-box icon-align-top-content style7">
+                  <div className="featured-inner">
+                    <div className="featured-icon">
+                      <div className="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md ttm-icon_element-style-square">
+                        <i className="fa fa-solid fa-location-dot" />
+                      </div>
+                    </div>
+                    <div className="featured-content">
+                      <div className="featured-title">
+                        <h3>Skydecor Experience Center</h3>
+                      </div>
+                      <div className="featured-desc">
+                        <p>
+                          Skydecor Experience Center <br />
+                          Plot No. 20-21, 2nd Floor <br />
+                          Rekha Enclave, Masarover Garden <br />
+                          Kirti Nagar,New Delhi,India,110015 <br />
+                        </p>
+                          <a href="/" className="view-btn"> Get Direction  </a>
                       </div>
                     </div>
                   </div>
@@ -69,31 +95,6 @@ const Contact = () => {
                         </p>
 
                        <a href="/" className="view-btn"> Get Direction  </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="featured-icon-box icon-align-top-content style7">
-                  <div className="featured-inner">
-                    <div className="featured-icon">
-                      <div className="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md ttm-icon_element-style-square">
-                        <i className="fa fa-solid fa-location-dot" />
-                      </div>
-                    </div>
-                    <div className="featured-content">
-                      <div className="featured-title">
-                        <h3>Skydecor Experience Center</h3>
-                      </div>
-                      <div className="featured-desc">
-                        <p>
-                          Skydecor Experience Center <br />
-                          Plot No. 20-21, 2nd Floor <br />
-                          Rekha Enclave, Masarover Garden <br />
-                          Kirti Nagar,New Delhi,India,110015 <br />
-                        </p>
-                          <a href="/" className="view-btn"> Get Direction  </a>
                       </div>
                     </div>
                   </div>
