@@ -496,3 +496,31 @@ hr {
   background-color: #5aaccf;
   color: #fff;
 }
+
+
+
+.view-btn1 {
+  background-color:#5aaccf;
+  color: #fff; 
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 30px auto 0; /* center horizontally with top margin */
+  display: block; /* needed for margin auto to work */
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.view-btn1:hover {
+  background-color: #163472;
+  transform: scale(1.05);
+}
+
+
+.content-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

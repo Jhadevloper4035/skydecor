@@ -16,7 +16,7 @@ const TeamMemberOne = ({ spaceTopClass, spaceBottomClass }) => {
           spaceClass="mb-60"
         />
 
-        <div className="row">
+        <div className="row content-center">
           {teamMemberData?.map((single, key) => (
             <div className="col-lg-4 col-md-6 col-sm-6" key={key}>
               <TeamMemberOneSingle

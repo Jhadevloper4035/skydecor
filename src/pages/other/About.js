@@ -13,6 +13,8 @@ import FunFactOne from "../../wrappers/fun-fact/FunFactOne";
 import TeamMemberOne from "../../wrappers/team-member/TeamMemberOne";
 
 const About = () => {
+
+
   useEffect(() => {
     const swiperslider = $(".swiper-slider");
     let x = 1;
@@ -187,10 +189,14 @@ const About = () => {
 
   return (
     <Fragment>
+
+
       <SEO
         titleTemplate="About us"
         description="About page of flone react minimalist eCommerce template."
       />
+
+
       <LayoutOne headerTop="visible">
         <Breadcrumb
           pages={[
@@ -200,74 +206,6 @@ const About = () => {
         />
 
         <SectionTitleWithText spaceTopClass="pt-70" />
-
-        <section
-          className="services section-padding"
-          style={{ paddingBottom: "70px", paddingTop: "70px" }}
-        >
-          <div className="container">
-            <div className="row">
-              <div
-                className="col-md-6 bg-cream p-0 order2 valign content-center animate-box fadeInLeft animated"
-                data-animate-effect="fadeInLeft"
-              >
-                <div className="content">
-                  <div className="cont text-left">
-                    {/* <div className="info">
-                      <h6>Skydecor Laminates </h6>
-                    </div>
-                    <h4>Innovation Meets Elegance</h4> */}
-                    <p>
-                      Boasting a legacy of a decade, Skydecor Laminates offers
-                      to revitalize the space around you. Our collections offer
-                      limitless possibilities for an interior space to look
-                      stylish and refined. From solids to textures, from
-                      naturals to eternals, our laminates come in a wide variety
-                      of designs and patterns. As a socially and environmentally
-                      responsible company, Skydecor also prioritizes
-                      sustainability in our design practices. We strive to
-                      incorporate eco-friendly materials, energy-efficient
-                      solutions, and sustainable practices wherever possible,
-                      contributing to a greener and more sustainable future.
-                    </p>
-
-                    <p>
-                      Our team follows a collaborative approach, working closely
-                      to ensure smooth project management, timely execution, and
-                      impeccable finishing. We believe by developing a large
-                      dealer network in India, Skydecor has left its footprints
-                      around our country. Our team works with clients to
-                      understand their vision, preferences, and requirements,
-                      ensuring that each project reflects their individuality
-                      and exceeds their expectations. We pay meticulous
-                      attention to detail, incorporating the latest design
-                      trends, materials, and technologies to create inspiring
-                      and functional spaces.
-                    </p>
-
-                    <p>
-                      Researching and developing a wide range of laminate
-                      designs with the utmost quality and at affordable prices
-                      has become our key goal for customer satisfaction. Explore
-                      Skydecor’s Laminates collection to design your interiors
-                      according to your specifics
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-6 p-0 order1 animate-box fadeInRight animated"
-                data-animate-effect="fadeInRight"
-              >
-                <div className="img pr">
-                  <a href="/">
-                    <img src="./assets/img/page/about.jpg" alt="" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
         <section
           className="services section-padding"
@@ -294,10 +232,20 @@ const About = () => {
                   <div className="cont text-left">
                     <h4>VISION</h4>
                     <p>
-                      We at Skydecor Laminates aim to be counted as the company
-                      that makes homes beautiful. We endeavor to bring global
-                      competence and unique styles to your space.
+                      At Skydecor Laminates, we envision becoming a name
+                      synonymous with beauty, innovation, and trust in every
+                      home and space we touch. Our goal is to be recognized not
+                      just as a laminate brand, but as a style partner that
+                      transforms interiors with elegance and excellence. We
+                      strive to bring globally inspired designs and world-class
+                      quality that enrich lifestyles and elevate living
+                      experiences.
                     </p>
+
+                    <a href="bespoke-furniture.php" className="view-btn">
+                      {" "}
+                      <span>Our Collection</span>{" "}
+                    </a>
                   </div>
                 </div>
               </div>
@@ -311,11 +259,18 @@ const About = () => {
                   <div className="cont text-left">
                     <h4>MISSION</h4>
                     <p>
-                      We aspire to attain global competitiveness and excellence
-                      in our industry by harmonizing Western work practices with
-                      Indian moral values. Our mission is to infuse global
-                      competence and distinctive flair into your environments.
+                      Our mission is to achieve global competitiveness and
+                      industry leadership by blending international standards
+                      with deeply rooted Indian ethics. We are committed to
+                      crafting solutions that offer a perfect balance of style,
+                      durability, and sustainability. By continuously innovating
+                      and embracing responsible manufacturing .
                     </p>
+
+                    <a href="bespoke-furniture.php" className="view-btn">
+                      {" "}
+                      <span>Our Collection</span>{" "}
+                    </a>
                   </div>
                 </div>
               </div>
@@ -349,12 +304,19 @@ const About = () => {
                   <div className="cont text-left">
                     <h4>CORE VALUES</h4>
                     <p>
-                      Skydecor is dedicated to incorporate eco-friendly
-                      materials and sustainable practices wherever possible,
-                      contributing to a greener and more sustainable future. The
-                      goal is to provide products that are not only visually
-                      appealing but also environmentally responsible & safe.
+                      Skydecor is committed to sustainability, responsibility,
+                      and design excellence. We use eco-friendly materials and
+                      adopt sustainable practices to minimize environmental
+                      impact. Our products are crafted to be visually appealing,
+                      safe, and environmentally conscious. Integrity, customer
+                      satisfaction, and continuous improvement guide our work
+                      and define our identity.
                     </p>
+
+                    <a href="bespoke-furniture.php" className="view-btn">
+                      {" "}
+                      <span>Our Collection</span>{" "}
+                    </a>
                   </div>
                 </div>
               </div>
@@ -362,11 +324,7 @@ const About = () => {
           </div>
         </section>
 
-        <FunFactOne
-          spaceTopClass="pt-100"
-          spaceBottomClass="pb-70"
-          bgClass="bg-gray-3"
-        />
+        <FunFactOne  spaceTopClass="pt-70"  spaceBottomClass="pb-70" bgClass="bg-gray-3" />
 
         <section
           className="section-xl pbmit-element-timeline-style-1"
@@ -548,8 +506,7 @@ const About = () => {
           </div>
         </section>
 
-        <div
-          className="breadcrumb-area pt-70 pb-70 bg-gray-3"
+        <div className="breadcrumb-area pt-70 pb-70 bg-gray-3"
           style={{
             backgroundImage: "url('./assets/img/certificate/banner.png')",
             backgroundSize: "cover",
@@ -564,20 +521,20 @@ const About = () => {
           <div className="container"></div>
         </div>
 
-        <section className="section-padding">
+        <section className="section-padding" style={{ paddingBottom: "70px", paddingTop: "70px" }} >
           <div className="container">
             <div className={clsx("welcome-area")}>
               <div className="container">
                 <div className="welcome-content text-center">
                   <h1 style={{ textTransform: "uppercase" }}>
-                    Our certificate{" "}
+                    Our certificate
                   </h1>
                 </div>
               </div>
             </div>
-            <div className="row">
+            <div className="row content-center">
               {/* 3 columns */}
-              <div className="col-md-4 gallery-item">
+              <div className="col-md-3 gallery-item">
                 <a
                   href="./assets/img/certificate/1.png"
                   title=""
@@ -585,17 +542,16 @@ const About = () => {
                 >
                   <div className="gallery-box">
                     <div className="gallery-img">
-                      {" "}
                       <img
                         src="./assets/img/certificate/1.png"
                         className="img-fluid mx-auto d-block"
                         alt="work-img"
-                      />{" "}
+                      />
                     </div>
                   </div>
                 </a>
               </div>
-              <div className="col-md-4 gallery-item">
+              <div className="col-md-3 gallery-item">
                 <a
                   href="./assets/img/certificate/2.png"
                   title=""
@@ -613,7 +569,7 @@ const About = () => {
                   </div>
                 </a>
               </div>
-              <div className="col-md-4 gallery-item">
+              <div className="col-md-3 gallery-item">
                 <a
                   href="./assets/img/certificate/3.png"
                   title=""
@@ -632,7 +588,7 @@ const About = () => {
                 </a>
               </div>
               {/* 2 columns */}
-              <div className="col-md-4 gallery-item">
+              <div className="col-md-3 gallery-item">
                 <a
                   href="./assets/img/certificate/4.png"
                   title=""
@@ -650,7 +606,7 @@ const About = () => {
                   </div>
                 </a>
               </div>
-              <div className="col-md-4 gallery-item">
+              <div className="col-md-3 gallery-item">
                 <a
                   href="./assets/img/certificate/5.png"
                   title=""
@@ -669,7 +625,7 @@ const About = () => {
                 </a>
               </div>
               {/* 3 columns */}
-              <div className="col-md-4 gallery-item">
+              <div className="col-md-3 gallery-item">
                 <a
                   href="./assets/img/certificate/6.png"
                   title=""
@@ -691,12 +647,8 @@ const About = () => {
           </div>
         </section>
 
-        <TeamMemberOne spaceTopClass="pt-95" spaceBottomClass="pb-70" />
-
-        <section
-          className="facilties "
-          style={{ paddingBottom: "70px", paddingTop: "70px" }}
-        >
+       
+        <section className="facilties " style={{ paddingBottom: "70px" }}>
           <div className="container">
             <div className="row text-center">
               <div className="welcome-content text-center pb-60 ">
@@ -766,6 +718,13 @@ const About = () => {
             </div>
           </div>
         </section>
+
+
+
+         <TeamMemberOne  spaceBottomClass="pb-70" />
+
+
+
       </LayoutOne>
     </Fragment>
   );

@@ -10,7 +10,8 @@ const TeamMemberOneSingle = ({ data, spaceBottomClass }) => {
             alt=""
             className="img-fluid"
           />
-          <div className="team-action">
+
+          {/* <div className="team-action">
             <a
               className="facebook"
               href={data.fbLink}
@@ -35,7 +36,9 @@ const TeamMemberOneSingle = ({ data, spaceBottomClass }) => {
             >
               <i className="fa fa-instagram" />
             </a>
-          </div>
+          </div> */}
+
+          
         </div>
         <div className="team-content text-center">
           <h4>{data.name}</h4>
