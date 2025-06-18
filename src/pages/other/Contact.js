@@ -23,7 +23,6 @@ const Contact = () => {
         <section className="ttm-row res-991-pt-45 pb-70 pt-70 res-991-pb-0 clearfix">
           <div className="container">
             <div className="row">
-
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="featured-icon-box icon-align-top-content style7">
                   <div className="featured-inner">
@@ -43,13 +42,16 @@ const Contact = () => {
                           2nd floor, plot No.59, sector 136 <br />
                           Noida,Uttar Pradesh,India,201301 <br />
                         </p>
-                         <a href="/" className="view-btn"> Get Direction  </a>
+                        <a href="/" className="view-btn">
+                          {" "}
+                          Get Direction{" "}
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-               <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="featured-icon-box icon-align-top-content style7">
                   <div className="featured-inner">
                     <div className="featured-icon">
@@ -68,7 +70,10 @@ const Contact = () => {
                           Rekha Enclave, Masarover Garden <br />
                           Kirti Nagar,New Delhi,India,110015 <br />
                         </p>
-                          <a href="/" className="view-btn"> Get Direction  </a>
+                        <a href="/" className="view-btn">
+                          {" "}
+                          Get Direction{" "}
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -94,7 +99,100 @@ const Contact = () => {
                           <br />
                         </p>
 
-                       <a href="/" className="view-btn"> Get Direction  </a>
+                        <a href="/" className="view-btn">
+                          {" "}
+                          Get Direction{" "}
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="featured-icon-box icon-align-top-content style7">
+                  <div className="featured-inner">
+                    <div className="featured-icon">
+                      <div className="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md ttm-icon_element-style-square">
+                        <i className="fa fa-solid fa-location-dot" />
+                      </div>
+                    </div>
+                    <div className="featured-content">
+                      <div className="featured-title">
+                        <h3>Delhi Depot</h3>
+                      </div>
+                      <div className="featured-desc">
+                        <p>
+                          D-64, Khasra No. 73/22/2 <br />
+                          Swaran Park, Near Rajdhani park metro station, <br />{" "}
+                          Opp. Metro Pillar No.470 Mundka,New Delhi,India,110041{" "}
+                          <br />
+                        </p>
+
+                        <a href="/" className="view-btn">
+                          {" "}
+                          Get Direction{" "}
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="featured-icon-box icon-align-top-content style7">
+                  <div className="featured-inner">
+                    <div className="featured-icon">
+                      <div className="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md ttm-icon_element-style-square">
+                        <i className="fa fa-solid fa-location-dot" />
+                      </div>
+                    </div>
+                    <div className="featured-content">
+                      <div className="featured-title">
+                        <h3>Delhi Depot</h3>
+                      </div>
+                      <div className="featured-desc">
+                        <p>
+                          D-64, Khasra No. 73/22/2 <br />
+                          Swaran Park, Near Rajdhani park metro station, <br />{" "}
+                          Opp. Metro Pillar No.470 Mundka,New Delhi,India,110041{" "}
+                          <br />
+                        </p>
+
+                        <a href="/" className="view-btn">
+                          {" "}
+                          Get Direction{" "}
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="featured-icon-box icon-align-top-content style7">
+                  <div className="featured-inner">
+                    <div className="featured-icon">
+                      <div className="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md ttm-icon_element-style-square">
+                        <i className="fa fa-solid fa-location-dot" />
+                      </div>
+                    </div>
+                    <div className="featured-content">
+                      <div className="featured-title">
+                        <h3>Delhi Depot</h3>
+                      </div>
+                      <div className="featured-desc">
+                        <p>
+                          D-64, Khasra No. 73/22/2 <br />
+                          Swaran Park, Near Rajdhani park metro station, <br />{" "}
+                          Opp. Metro Pillar No.470 Mundka,New Delhi,India,110041{" "}
+                          <br />
+                        </p>
+
+                        <a href="/" className="view-btn">
+                          {" "}
+                          Get Direction{" "}
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -242,6 +340,9 @@ const Contact = () => {
             </div>
           </div>
         </div>
+
+
+        
       </LayoutOne>
     </Fragment>
   );

@@ -182,52 +182,62 @@ const Career = () => {
 
   let { pathname } = useLocation();
 
-  const jobData = [
-    {
-      location: "India | Bangalore & Mumbai",
-      title: "Assistant Manager – Deal Desk [Skydecor ]",
-      area: "Sales",
-      posted: "Posted 1 week ago",
-    },
-    {
-      location: "India | Pune",
-      title: "Assistant Manager – Project Sales [Skydecor ]",
-      area: "Marketing",
-      posted: "Posted 2 weeks ago",
-    },
-    {
-      location: "India | Delhi, Gurgaon & Bangalore",
-      title: "Manager – Project Sales [Skydecor ]",
-      area: "Operations",
-      posted: "Posted 3 weeks ago",
-    },
-    {
-      location: "India | Hyderabad",
-      title: "Senior Executive – Channel Sales [Skydecor ]",
-      area: "Sales",
-      posted: "Posted 5 days ago",
-    },
-    {
-      location: "India | Ahmedabad",
-      title: "Regional Manager – Retail Sales [Skydecor ]",
-      area: "Retail",
-      posted: "Posted 1 month ago",
-    },
-    {
-      location: "India | Kolkata",
-      title: "Executive – Business Development [Skydecor ]",
-      area: "Business Development",
-      posted: "Posted 3 days ago",
-    },
-  ];
+const jobData = [
+  {
+    location: "India | Bangalore & Mumbai",
+    title: "Assistant Manager – Deal Desk [Skydecor ]",
+    area: "Sales",
+    posted: "Posted 1 week ago",
+    description: "Support sales operations by managing deal structures, pricing strategies, and client proposals to maximize revenue efficiency."
+  },
+  {
+    location: "India | Pune",
+    title: "Assistant Manager – Project Sales [Skydecor ]",
+    area: "Marketing",
+    posted: "Posted 2 weeks ago",
+    description: "Drive sales for large-scale interior projects by engaging architects, designers, and contractors in the region. The role involves identifying business"
+
+  },
+  {
+    location: "India | Delhi, Gurgaon & Bangalore",
+    title: "Manager – Project Sales [Skydecor ]",
+    area: "Operations",
+    posted: "Posted 3 weeks ago",
+    description: "Lead project-based sales activities, overseeing client accounts, operational delivery, and revenue growth in multiple cities."
+  },
+  {
+    location: "India | Hyderabad",
+    title: "Senior Executive – Channel Sales [Skydecor ]",
+    area: "Sales",
+    posted: "Posted 5 days ago",
+    description: "Manage and expand relationships with distributors and retailers to drive channel-based sales performance."
+  },
+  {
+    location: "India | Ahmedabad",
+    title: "Regional Manager – Retail Sales [Skydecor ]",
+    area: "Retail",
+    posted: "Posted 1 month ago",
+    description: "Oversee retail operations and sales strategies across the region to boost brand presence and customer engagement."
+  },
+  {
+    location: "India | Kolkata",
+    title: "Executive – Business Development [Skydecor ]",
+    area: "Business Development",
+    posted: "Posted 3 days ago",
+    description: "Identify new business opportunities, build client relationships, and contribute to the expansion of market reach."
+  },
+];
+
 
 
   return (
     <Fragment>
+
       <SEO
         titleTemplate="About us"
         description="About page of flone react minimalist eCommerce template."
       />
+
       <LayoutOne headerTop="visible">
         <Breadcrumb
           pages={[
@@ -236,65 +246,46 @@ const Career = () => {
           ]}
         />
 
-        <section
-          className="services section-padding"
-          style={{ paddingBottom: "70px", paddingTop: "70px" }}
-        >
-          <div className="container">
-            <div className="row">
-              <div
-                className="col-md-6 bg-cream p-0 order2 valign content-center animate-box fadeInLeft animated"
-                data-animate-effect="fadeInLeft"
-              >
-                <div className="content">
-                  <div className="cont text-left">
-                    <div className="info">
-                      <h6>We’re Hiring </h6>
-                    </div>
-                    <h4 style={{ textAlign: "start" }}>
-                      Be a Part of the Skydecor Family
-                    </h4>
-                    <p>
-                      Skydecor is the first company to start PVC Laminates
-                      manufacturing in India. From a humble start, with 32
-                      designs in the year 2016. It's been almost a decade now
-                      since we have transformed your interior surfaces. Today we
-                      are producing over 600 superior quality designer laminates
-                      to transform your space into a place of art. We help you
-                      create an ambiance of your choice to uplift your mood as
-                      you enter an area.
-                    </p>
 
+
+         <section className="job-listings-section"  >
+          <div className="container py-5">
+            <div className={clsx("welcome-area")}>
+              <div className="container">
+                <div className="welcome-content text-center">
+                  <h1 style={{ textTransform: "uppercase" }}>Join Our Team</h1>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              {jobData.map((job, index) => (
+                <div className="col-md-4" key={index}>
+                  <div className="job-card">
+                    <p className="text-muted">{job.location}</p>
+                    <p className="job-title">{job.title}</p>
                     <p>
-                      nnovation doesn't strike us by accident. we have invested
-                      years of dedication and a focused approach, inclined to
-                      nurture an environment where inspiration can foster. We
-                      invested heavily in R&D activities with dedicated team to
-                      establish a culture of improvement. Our initiatives
-                      towards improvement have seen tremendous success and
-                      pushed us to the forefront of the sec
+                      <strong>Business Area :</strong> {job.area}
                     </p>
+                    <p>
+                      <strong>Description :</strong> {job.description}
+                    </p>
+                    <small className="text-muted">
+                      {job.posted.toUpperCase()}
+                    </small>
+                    <br />
+                    <a href="/" className="view-btn">
+                     Apply now
+                    </a>
                   </div>
                 </div>
-              </div>
-              <div
-                className="col-md-6 p-0 order1 animate-box fadeInRight animated"
-                data-animate-effect="fadeInRight"
-              >
-                <div className="img pr">
-                  <a href="/">
-                    <img src="./assets/img/page/employee.jpg" alt="" />
-                  </a>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </section>
 
-        
-      
 
-        <section className="section-padding">
+
+        <section className="pt-0">
           <div className="container">
             <div className={clsx("welcome-area")}>
               <div className="container">
@@ -422,40 +413,7 @@ const Career = () => {
           </div>
         </section>
 
-        <section
-          className="job-listings-section"
-          style={{ paddingBottom: "70px", paddingTop: "70px" }}
-        >
-          <div className="container py-5">
-            <div className={clsx("welcome-area")}>
-              <div className="container">
-                <div className="welcome-content text-center">
-                  <h1 style={{ textTransform: "uppercase" }}>Join Our Team</h1>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              {jobData.map((job, index) => (
-                <div className="col-md-4" key={index}>
-                  <div className="job-card">
-                    <p className="text-muted">{job.location}</p>
-                    <p className="job-title">{job.title}</p>
-                    <p>
-                      <strong>Business Area :</strong> {job.area}
-                    </p>
-                    <small className="text-muted">
-                      {job.posted.toUpperCase()}
-                    </small>
-                    <br />
-                    <a href="/" className="view-btn">
-                      View Job Description
-                    </a>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+      
       </LayoutOne>
     </Fragment>
   );

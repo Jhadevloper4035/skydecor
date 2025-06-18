@@ -8,8 +8,6 @@ import TabProductTwenty from "../../wrappers/product/TabProductTwenty";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 
 const HomeFurnitureSix = () => {
- 
-
   return (
     <Fragment>
       <SEO
@@ -133,8 +131,12 @@ const HomeFurnitureSix = () => {
             <div className="row">
               <div
                 className="col-md-6 mb-30 animate-box"
-                data-animate-effect="fadeInUp">
-                <div className="skydecor-section-title " style={{ marginBottom: 24 }}>
+                data-animate-effect="fadeInUp"
+              >
+                <div
+                  className="skydecor-section-title "
+                  style={{ marginBottom: 24 }}
+                >
                   The TOTAL LIVING CONCEPT
                 </div>
                 <p className="about-skydecor-p">
@@ -261,10 +263,6 @@ const HomeFurnitureSix = () => {
             </div>
           </div>
         </section>
-
-      
-
-        
 
         <section
           className="rooms1  bg-gray"

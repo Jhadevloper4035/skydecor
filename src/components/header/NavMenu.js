@@ -5,30 +5,25 @@ import clsx from "clsx";
 
 const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
   const { t } = useTranslation();
-  
+
   return (
     <div
-      className={clsx(sidebarMenu
+      className={clsx(
+        sidebarMenu
           ? "sidebar-menu"
-          : `main-menu ${menuWhiteClass ? menuWhiteClass : ""}`)}
+          : `main-menu ${menuWhiteClass ? menuWhiteClass : ""}`
+      )}
     >
       <nav>
         <ul>
-
-        <li>
-            <Link to={process.env.PUBLIC_URL + "/"}>
-              {t("Home")}
-            </Link>
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/"}>{t("Home")}</Link>
           </li>
 
-           <li>
-            <Link to={process.env.PUBLIC_URL + "/"}>
-              {t("About")}
-            </Link>
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/about"}>{t("About")}</Link>
           </li>
 
-
-          
           <li>
             <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
               {" "}
@@ -172,58 +167,43 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
             </ul> */}
           </li>
 
-
-          
-                        <li>
-                      <Link to={process.env.PUBLIC_URL + "/"}>
-                        {t("Events")}
-                        {sidebarMenu ? (
-                          <span>
-                            <i className="fa fa-angle-right"></i>
-                          </span>
-                        ) : (
-                          <i className="fa fa-angle-down" />
-                        )}
-                      </Link>
-                      <ul className="submenu">
-                        <li>
-                          <Link to={process.env.PUBLIC_URL + "/"}>
-                            {t("Exhibition & media")}
-                          </Link>
-                        </li>
-
-                         <li>
-                          <Link to={process.env.PUBLIC_URL + "/"}>
-                            {t("Blog")}
-                          </Link>
-                        </li>
-
-                      </ul>
-                      </li>
-
-        
-       
-
-
-           <li>
+          <li>
             <Link to={process.env.PUBLIC_URL + "/"}>
-              {t("Career ")}
+              {t("Events")}
+              {sidebarMenu ? (
+                <span>
+                  <i className="fa fa-angle-right"></i>
+                </span>
+              ) : (
+                <i className="fa fa-angle-down" />
+              )}
             </Link>
+            <ul className="submenu">
+              <li>
+                <Link to={process.env.PUBLIC_URL + "/"}>
+                  {t("Exhibition & media")}
+                </Link>
+              </li>
+
+              <li>
+                <Link to={process.env.PUBLIC_URL + "/blog"}>{t("Blog")}</Link>
+              </li>
+            </ul>
           </li>
 
-           <li>
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/career"}>{t("Career ")}</Link>
+          </li>
+
+          <li>
             <Link to={process.env.PUBLIC_URL + "/"}>
               {t("Experience Center")}
             </Link>
-          </li> 
-
-             <li>
-            <Link to={process.env.PUBLIC_URL + "/contact"}>
-              {t("contact")}
-            </Link>
           </li>
 
-
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/contact"}>{t("contact")}</Link>
+          </li>
         </ul>
       </nav>
     </div>
