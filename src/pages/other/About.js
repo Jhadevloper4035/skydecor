@@ -11,10 +11,8 @@ import Breadcrumb from "../../wrappers/breadcrumb/aboutBreadcrumb";
 import SectionTitleWithText from "../../components/section-title/SectionTitleWithText";
 import FunFactOne from "../../wrappers/fun-fact/FunFactOne";
 import TeamMemberOne from "../../wrappers/team-member/TeamMemberOne";
-
+import CategoryThreeSlider from "../../wrappers/category/CategoryThreeSlider";
 const About = () => {
-
-
   useEffect(() => {
     const swiperslider = $(".swiper-slider");
     let x = 1;
@@ -189,13 +187,10 @@ const About = () => {
 
   return (
     <Fragment>
-
-
       <SEO
         titleTemplate="About us"
         description="About page of flone react minimalist eCommerce template."
       />
-
 
       <LayoutOne headerTop="visible">
         <Breadcrumb
@@ -324,7 +319,11 @@ const About = () => {
           </div>
         </section>
 
-        <FunFactOne  spaceTopClass="pt-70"  spaceBottomClass="pb-70" bgClass="bg-gray-3" />
+        <FunFactOne
+          spaceTopClass="pt-70"
+          spaceBottomClass="pb-70"
+          bgClass="bg-gray-3"
+        />
 
         <section
           className="section-xl pbmit-element-timeline-style-1"
@@ -506,7 +505,8 @@ const About = () => {
           </div>
         </section>
 
-        <div className="breadcrumb-area pt-70 pb-70 bg-gray-3"
+        <div
+          className="breadcrumb-area pt-70 pb-70 bg-gray-3"
           style={{
             backgroundImage: "url('./assets/img/certificate/banner.png')",
             backgroundSize: "cover",
@@ -521,134 +521,9 @@ const About = () => {
           <div className="container"></div>
         </div>
 
-        <section className="section-padding" style={{ paddingBottom: "70px", paddingTop: "70px" }} >
-          <div className="container">
-            <div className={clsx("welcome-area")}>
-              <div className="container">
-                <div className="welcome-content text-center">
-                  <h1 style={{ textTransform: "uppercase" }}>
-                    Our certificate
-                  </h1>
-                </div>
-              </div>
-            </div>
-            <div className="row content-center">
-              {/* 3 columns */}
-              <div className="col-md-3 gallery-item">
-                <a
-                  href="./assets/img/certificate/1.png"
-                  title=""
-                  className="img-zoom"
-                >
-                  <div className="gallery-box">
-                    <div className="gallery-img">
-                      <img
-                        src="./assets/img/certificate/1.png"
-                        className="img-fluid mx-auto d-block"
-                        alt="work-img"
-                      />
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-md-3 gallery-item">
-                <a
-                  href="./assets/img/certificate/2.png"
-                  title=""
-                  className="img-zoom"
-                >
-                  <div className="gallery-box">
-                    <div className="gallery-img">
-                      {" "}
-                      <img
-                        src="./assets/img/certificate/2.png"
-                        className="img-fluid mx-auto d-block"
-                        alt="work-img"
-                      />{" "}
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-md-3 gallery-item">
-                <a
-                  href="./assets/img/certificate/3.png"
-                  title=""
-                  className="img-zoom"
-                >
-                  <div className="gallery-box">
-                    <div className="gallery-img">
-                      {" "}
-                      <img
-                        src="./assets/img/certificate/3.png"
-                        className="img-fluid mx-auto d-block"
-                        alt="work-img"
-                      />{" "}
-                    </div>
-                  </div>
-                </a>
-              </div>
-              {/* 2 columns */}
-              <div className="col-md-3 gallery-item">
-                <a
-                  href="./assets/img/certificate/4.png"
-                  title=""
-                  className="img-zoom"
-                >
-                  <div className="gallery-box">
-                    <div className="gallery-img">
-                      {" "}
-                      <img
-                        src="./assets/img/certificate/4.png"
-                        className="img-fluid mx-auto d-block"
-                        alt="work-img"
-                      />{" "}
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-md-3 gallery-item">
-                <a
-                  href="./assets/img/certificate/5.png"
-                  title=""
-                  className="img-zoom"
-                >
-                  <div className="gallery-box">
-                    <div className="gallery-img">
-                      {" "}
-                      <img
-                        src="./assets/img/certificate/5.png"
-                        className="img-fluid mx-auto d-block"
-                        alt="work-img"
-                      />{" "}
-                    </div>
-                  </div>
-                </a>
-              </div>
-              {/* 3 columns */}
-              <div className="col-md-3 gallery-item">
-                <a
-                  href="./assets/img/certificate/6.png"
-                  title=""
-                  className="img-zoom"
-                >
-                  <div className="gallery-box">
-                    <div className="gallery-img">
-                      {" "}
-                      <img
-                        src="./assets/img/certificate/6.png"
-                        className="img-fluid mx-auto d-block"
-                        alt="work-img"
-                      />{" "}
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+        <CategoryThreeSlider spaceTopClass="pt-100" spaceBottomClass="pb-95" />
 
-       
-        <section className="facilties " style={{ paddingBottom: "70px" }}>
+        <section className="facilties ">
           <div className="container">
             <div className="row text-center">
               <div className="welcome-content text-center pb-60 ">
@@ -719,12 +594,7 @@ const About = () => {
           </div>
         </section>
 
-
-
-         <TeamMemberOne  spaceBottomClass="pb-70" />
-
-
-
+        <TeamMemberOne spaceBottomClass="pb-70" />
       </LayoutOne>
     </Fragment>
   );

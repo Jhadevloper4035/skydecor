@@ -60,11 +60,11 @@ const HeaderOne = ({
               {/* header logo */}
               <Logo imageUrl="/assets/img/logo/logo.png" logoClass="logo" />
             </div>
-            <div className="col-xl-8 col-lg-8 d-none d-lg-block">
+            <div className="col-xl-9 col-lg-9 d-none d-lg-block">
               {/* Nav menu */}
               <NavMenu />
             </div>
-            <div className="col-xl-2 col-lg-2 col-md-6 col-8" style={{display:"flex" , justifyContent : "flex-end"}}>
+            <div className="col-xl-1 col-lg-1 col-md-6 col-8" style={{display:"flex" , justifyContent : "flex-end"}}>
               {/* Icon group */}
               <IconGroup />
             </div>
