@@ -1,0 +1,45 @@
+import PropTypes from "prop-types";
+
+import { Link } from "react-router-dom";
+
+const HeroSliderThirtyOneSingle = ({ data }) => {
+  return (
+    <div
+      className="single-slider slider-height-1 slider-height-res15 d-flex align-items-center slider-height-res bg-img"
+      style={{ backgroundImage: `url(${process.env.PUBLIC_URL + data.image})` }}
+    >
+      <div className="container">
+        <div className="row">
+          <div className="col-xl-6 col-lg-6 col-md-7">
+            <div className="slider-content slider-content-10 slider-animated-1">
+              <h3
+                className="animated"
+                dangerouslySetInnerHTML={{ __html: data.title }}
+              ></h3>
+              <h1
+                className="animated subtitle"
+                dangerouslySetInnerHTML={{ __html: data.subtitle }}
+                style={{ fontStyle: "italic", color: "#fff !important" }}
+              />
+
+              <div className="slider-btn btn-hover btn-hover--blue">
+                {/* <Link
+                  className="animated"
+                  to={process.env.PUBLIC_URL + data.url}
+                >
+                  SHOP NOW
+                </Link> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+HeroSliderThirtyOneSingle.propTypes = {
+  data: PropTypes.shape({}),
+};
+
+export default HeroSliderThirtyOneSingle;

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "iconClass": "pe-7s-shopbag",  
+    "countNum": 22564,
+    "title": "Dealers"
+  },
+  {
+    "id": "2",
+    "iconClass": "pe-7s-medal",  
+    "countNum": 120,
+    "title": "Distributors"
+  },
+  {
+    "id": "3",
+    "iconClass": "pe-7s-tools",  
+    "countNum": 27596,
+    "title": "Carpenters"
+  },
+  {
+    "id": "4",
+    "iconClass": "pe-7s-ribbon",  
+    "countNum": 12379,
+    "title": "Architects"
+  }
+]

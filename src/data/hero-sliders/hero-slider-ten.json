@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/img/banner/b-3.jpg"
+
+  },
+  {
+    "id": 2,
+    "image": "/assets/img/banner/b-4.jpg"
+  },
+  {
+    "id": 3,
+    "image": "/assets/img/banner/b-2.jpg"
+  },
+  {
+    "id": 4,
+    "image": "/assets/img/banner/b-1.jpg"
+  },
+  {
+    "id": 5,
+    "image": "/assets/img/banner/b-5.jpg"
+  },
+  {
+    "id": 6,
+    "image": "/assets/img/banner/b-6.jpg"
+  }
+  
+
+
+]

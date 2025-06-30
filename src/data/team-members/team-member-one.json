@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "image": "/assets/img/team/team-1.jpg",
+    "name": "Manoj Bansal",
+    "position": "Managing Director"
+  },
+  {
+    "id": "2",
+    "image": "/assets/img/team/team-2.jpg",
+    "name": "Utsav Garg",
+    "position": "Managing Director"
+  }
+]
