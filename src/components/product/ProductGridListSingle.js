@@ -36,15 +36,22 @@ const ProductGridListSingle = ({
                 src={process.env.PUBLIC_URL + product.image[0]}
                 alt=""
               />
+<<<<<<< HEAD
               {product.image.length > 1 ? (
+=======
+              
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
                 <img
                   className="hover-img"
                   src={process.env.PUBLIC_URL + product.image[1]}
                   alt=""
                 />
+<<<<<<< HEAD
               ) : (
                 ""
               )}
+=======
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
             </Link>
             {product.discount || product.new ? (
               <div className="product-img-badges">
@@ -123,7 +130,11 @@ const ProductGridListSingle = ({
           <div className="product-content text-center">
             <h3>
               <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
+<<<<<<< HEAD
                 {product.name}
+=======
+               {product.category[0]} - {product.tag[0]}  {product.name}
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
               </Link>
             </h3>
             {product.rating && product.rating > 0 ? (

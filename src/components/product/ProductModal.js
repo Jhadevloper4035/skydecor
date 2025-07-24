@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { Fragment, useState } from "react";
+=======
+import {  useState } from "react";
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
 import PropTypes from "prop-types";
 import { EffectFade, Thumbs } from 'swiper';
 import { Modal } from "react-bootstrap";
@@ -9,6 +13,10 @@ import { getProductCartQuantity } from "../../helpers/product";
 import { addToCart } from "../../store/slices/cart-slice";
 import { addToWishlist } from "../../store/slices/wishlist-slice";
 import { addToCompare } from "../../store/slices/compare-slice";
+<<<<<<< HEAD
+=======
+import ProductDetailsTable from './ProductDetailsTable';
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
 
 function ProductModal({ product, currency, discountedPrice, finalProductPrice, finalDiscountedPrice, show, onHide, wishlistItem, compareItem }) {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -44,6 +52,7 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
     modules: [EffectFade, Thumbs],
   };
 
+<<<<<<< HEAD
   const thumbnailSwiperParams = {
     onSwiper: setThumbsSwiper,
     spaceBetween: 10,
@@ -55,6 +64,9 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
     navigation: true
   };
 
+=======
+ 
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
   const onCloseModal = () => {
     setThumbsSwiper(null)
     onHide()
@@ -85,6 +97,7 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                 })}
             </Swiper>
           </div>
+<<<<<<< HEAD
           <div className="product-small-image-wrapper mt-15">
             <Swiper options={thumbnailSwiperParams}>
               {product.image &&
@@ -121,6 +134,15 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                 <span>{currency.currencySymbol + finalProductPrice} </span>
               )}
             </div>
+=======
+        </div>
+        <div className="col-md-7 col-sm-12 col-xs-12">
+          <div className="product-details-content quickview-content">
+            <h2>{product.category[0]} - {product.tag[0]} <br/> <br/> {product.name}</h2>
+            <div className="product-details-price">
+            </div>
+
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
             {product.rating && product.rating > 0 ? (
               <div className="pro-details-rating-wrap">
                 <div className="pro-details-rating">
@@ -130,9 +152,17 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
             ) : (
               ""
             )}
+<<<<<<< HEAD
             <div className="pro-details-list">
               <p>{product.shortDescription}</p>
             </div>
+=======
+            
+          
+<div className="pro-details-list">
+  <ProductDetailsTable description={product.fullDescription} />
+</div>
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
 
             {product.variation ? (
               <div className="pro-details-size-color">

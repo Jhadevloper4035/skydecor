@@ -5,14 +5,21 @@ import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { getDiscountPrice } from "../../helpers/product";
 import ProductModal from "./ProductModal";
+<<<<<<< HEAD
 import { addToCart } from "../../store/slices/cart-slice";
 import { addToWishlist } from "../../store/slices/wishlist-slice";
 import { addToCompare } from "../../store/slices/compare-slice";
+=======
+import { addToWishlist } from "../../store/slices/wishlist-slice";
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
 
 const ProductGridSingleEleven = ({
   product,
   currency,
+<<<<<<< HEAD
   cartItem,
+=======
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
   wishlistItem,
   compareItem,
   spaceBottomClass,
@@ -37,6 +44,7 @@ const ProductGridSingleEleven = ({
                 src={process.env.PUBLIC_URL + product.image[0]}
                 alt=""
               />
+<<<<<<< HEAD
               {product.image.length > 1 ? (
                 <img
                   className="hover-img img-fluid"
@@ -46,6 +54,14 @@ const ProductGridSingleEleven = ({
               ) : (
                 ""
               )}
+=======
+            
+                <img
+                  className="hover-img img-fluid"
+                  src={process.env.PUBLIC_URL + product.image[0]}
+                  alt=""
+                />
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
             </Link>
             {product.discount || product.new ? (
               <div className="product-img-badges">
@@ -57,6 +73,7 @@ const ProductGridSingleEleven = ({
             )}
 
             <div className="product-action-2">
+<<<<<<< HEAD
               {product.affiliateLink ? (
                 <a
                   href={product.affiliateLink}
@@ -95,12 +112,16 @@ const ProductGridSingleEleven = ({
                   <i className="fa fa-shopping-cart"></i>
                 </button>
               )}
+=======
+           
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
 
               <button onClick={() => setModalShow(true)} title="Quick View">
                 <i className="fa fa-eye"></i>
               </button>
 
               <button
+<<<<<<< HEAD
                 className={compareItem !== undefined ? "active" : ""}
                 disabled={compareItem !== undefined}
                 title={
@@ -113,6 +134,8 @@ const ProductGridSingleEleven = ({
                 <i className="fa fa-retweet"></i>
               </button>
               <button
+=======
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
                 className={wishlistItem !== undefined ? "active" : ""}
                 disabled={wishlistItem !== undefined}
                 title={

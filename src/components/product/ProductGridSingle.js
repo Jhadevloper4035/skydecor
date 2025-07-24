@@ -122,7 +122,11 @@ const ProductGridSingle = ({
         <div className="product-content text-center">
           <h3>
             <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
+<<<<<<< HEAD
               {product.name}
+=======
+             {product.category[0]}  {product.tag[0]}  {product.name}
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
             </Link>
           </h3>
           {product.rating && product.rating > 0 ? (
@@ -132,6 +136,7 @@ const ProductGridSingle = ({
           ) : (
             ""
           )}
+<<<<<<< HEAD
           <div className="product-price">
             {discountedPrice !== null ? (
               <Fragment>
@@ -144,6 +149,10 @@ const ProductGridSingle = ({
               <span>{currency.currencySymbol + finalProductPrice} </span>
             )}
           </div>
+=======
+
+
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
         </div>
       </div>
       {/* product modal */}

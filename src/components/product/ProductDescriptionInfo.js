@@ -1,5 +1,9 @@
 import PropTypes from "prop-types";
+<<<<<<< HEAD
 import React, { Fragment, useState } from "react";
+=======
+import React, {  useState } from "react";
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { getProductCartQuantity } from "../../helpers/product";
@@ -7,6 +11,10 @@ import Rating from "./sub-components/ProductRating";
 import { addToCart } from "../../store/slices/cart-slice";
 import { addToWishlist } from "../../store/slices/wishlist-slice";
 import { addToCompare } from "../../store/slices/compare-slice";
+<<<<<<< HEAD
+=======
+import ProductDetailsTable from "./ProductDetailsTable";
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
 
 const ProductDescriptionInfo = ({
   product,
@@ -39,6 +47,7 @@ const ProductDescriptionInfo = ({
 
   return (
     <div className="product-details-content ml-70">
+<<<<<<< HEAD
       <h2>{product.name}</h2>
       <div className="product-details-price">
         {discountedPrice !== null ? (
@@ -52,6 +61,11 @@ const ProductDescriptionInfo = ({
           <span>{currency.currencySymbol + finalProductPrice} </span>
         )}
       </div>
+=======
+      <h2>{product.category[0]} - {product.tag[0]} <br/> <br/> {product.name}  </h2>
+      <br/>
+     
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
       {product.rating && product.rating > 0 ? (
         <div className="pro-details-rating-wrap">
           <div className="pro-details-rating">
@@ -61,10 +75,81 @@ const ProductDescriptionInfo = ({
       ) : (
         ""
       )}
+<<<<<<< HEAD
       <div className="pro-details-list">
         <p>{product.shortDescription}</p>
       </div>
 
+=======
+
+      
+     <div className="pro-details-list">
+  <ProductDetailsTable description={product.shortDescription} />
+</div>
+   
+
+   {product.category ? (
+        <div className="pro-details-meta">
+          <span>Categories :</span>
+          <ul>
+            {product.category.map((single, key) => {
+              return (
+                <li key={key}>
+                  <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+                    {single}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      ) : (
+        ""
+      )}
+      {product.tag ? (
+        <div className="pro-details-meta">
+          <span>Tags :</span>
+          <ul>
+            {product.tag.map((single, key) => {
+              return (
+                <li key={key}>
+                  <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+                    {single}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      ) : (
+        ""
+      )}
+
+      <div className="pro-details-social">
+        <ul>
+          <li>
+            <a href="//facebook.com">
+              <i className="fa fa-facebook" />
+            </a>
+          </li>
+
+            <li>
+            <a href="//facebook.com">
+              <i className="fa fa-instagram" />
+            </a>
+          </li>
+        
+          <li>
+            <a href="//linkedin.com">
+              <i className="fa fa-linkedin" />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
       {product.variation ? (
         <div className="pro-details-size-color">
           <div className="pro-details-color-wrap">
@@ -226,6 +311,7 @@ const ProductDescriptionInfo = ({
           </div>
         </div>
       )}
+<<<<<<< HEAD
       {product.category ? (
         <div className="pro-details-meta">
           <span>Categories :</span>
@@ -292,6 +378,12 @@ const ProductDescriptionInfo = ({
           </li>
         </ul>
       </div>
+=======
+
+      
+
+
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
     </div>
   );
 };

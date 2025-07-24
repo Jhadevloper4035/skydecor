@@ -247,7 +247,11 @@
   position: relative;
   .product-img {
     position: relative;
+<<<<<<< HEAD
 
+=======
+    height : 380px;
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
     overflow: hidden;
     img {
       width: 100%;
@@ -3880,4 +3884,75 @@
 .product-tab-list-7 a h4:hover, .product-tab-list-7 a .h4:hover {
   color: #ffffff;
   background-color: #313131;
+<<<<<<< HEAD
 }
+=======
+}
+
+.product-wrap-10 .product-img {
+    height: 380px;
+    overflow: hidden;
+}
+
+.product-large-image-wrapper {
+    height: 500px;
+}
+
+.single-image {
+    overflow: hidden;
+    height: 500px;
+}
+
+.product-details-table {
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  margin-top: 20px;
+}
+
+.product-details-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-details-table td {
+  padding: 12px 16px;
+  vertical-align: top;
+  border-bottom: 1px solid #eee;
+}
+
+.product-details-table tr:last-child td {
+  border-bottom: none;
+}
+
+.product-details-table td:first-child {
+  font-weight: 600;
+  color: #555;
+  width: 180px;
+  white-space: nowrap;
+}
+
+
+.product-wrap-10 .product-img .product-action-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    flex-direction: row;
+  
+}
+
+.product-wrap-10--style2--blue .product-img .product-action-2 button, .product-wrap-10--style2--blue .product-img .product-action-2 a {
+  
+    margin: 0px 5px;
+}
+
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6

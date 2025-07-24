@@ -21,7 +21,11 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
           </li>
 
           <li>
+<<<<<<< HEAD
             <Link to={process.env.PUBLIC_URL + "/about"}>{t("About")}</Link>
+=======
+            <Link to={process.env.PUBLIC_URL + "/"}>{t("About")}</Link>
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
           </li>
 
           <li>
@@ -36,7 +40,11 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
                 <i className="fa fa-angle-down" />
               )}
             </Link>
+<<<<<<< HEAD
             {/*     <ul className="mega-menu">
+=======
+            {/* <ul className="mega-menu">
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
               <li>
                 <ul>
                   <li className="mega-menu-title">
@@ -186,13 +194,21 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
               </li>
 
               <li>
+<<<<<<< HEAD
                 <Link to={process.env.PUBLIC_URL + "/blog"}>{t("Blog")}</Link>
+=======
+                <Link to={process.env.PUBLIC_URL + "/"}>{t("Blog")}</Link>
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
               </li>
             </ul>
           </li>
 
           <li>
+<<<<<<< HEAD
             <Link to={process.env.PUBLIC_URL + "/career"}>{t("Career ")}</Link>
+=======
+            <Link to={process.env.PUBLIC_URL + "/"}>{t("Career ")}</Link>
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
           </li>
 
           <li>
@@ -202,7 +218,11 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
           </li>
 
           <li>
+<<<<<<< HEAD
             <Link to={process.env.PUBLIC_URL + "/contact"}>{t("contact")}</Link>
+=======
+            <Link to={process.env.PUBLIC_URL + "/"}>{t("contact")}</Link>
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
           </li>
         </ul>
       </nav>

@@ -21,7 +21,11 @@ const ShopGridFilter = () => {
     const [sortedProducts, setSortedProducts] = useState([]);
     const { products } = useSelector((state) => state.product);
 
+<<<<<<< HEAD
     const pageLimit = 15;
+=======
+    const pageLimit = 100;
+>>>>>>> 228e1e72807d604040d94904d4644fda909a04a6
     let { pathname } = useLocation();
 
     const getLayout = (layout) => {
