@@ -13,6 +13,7 @@ import FunFactOne from "../../wrappers/fun-fact/FunFactOne";
 import TeamMemberOne from "../../wrappers/team-member/TeamMemberOne";
 import CategoryThreeSlider from "../../wrappers/category/CategoryThreeSlider";
 const About = () => {
+
   useEffect(() => {
     const swiperslider = $(".swiper-slider");
     let x = 1;
@@ -186,6 +187,8 @@ const About = () => {
   let { pathname } = useLocation();
 
   return (
+
+    
     <Fragment>
       <SEO
         titleTemplate="About us"

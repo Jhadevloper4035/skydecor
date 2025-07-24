@@ -5,7 +5,6 @@ import Career from "./pages/other/Career";
 
 
 
-
 //homepage 
 const Home = lazy(() => import("./pages/home/Home"));
 

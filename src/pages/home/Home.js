@@ -7,6 +7,7 @@ import HeroSliderThirtyOne from "../../wrappers/hero-slider/HeroSliderTen";
 import TabProductTwenty from "../../wrappers/product/TabProductTwenty";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 
+
 const HomeFurnitureSix = () => {
   return (
     <Fragment>

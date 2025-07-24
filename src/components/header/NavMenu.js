@@ -36,7 +36,7 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
                 <i className="fa fa-angle-down" />
               )}
             </Link>
-            {/* <ul className="mega-menu">
+            {/*     <ul className="mega-menu">
               <li>
                 <ul>
                   <li className="mega-menu-title">
